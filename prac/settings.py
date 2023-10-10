@@ -12,6 +12,11 @@ BOT_NAME = "prac"
 SPIDER_MODULES = ["prac.spiders"]
 NEWSPIDER_MODULE = "prac.spiders"
 
+#USER_AGENT = 'Mozilla/5.0 (Linux; Android 10; Pixel 3 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Mobile Safari/537.36'
+
+# SPLASH_URL = 'http://localhost:8050'  # Splash 서버 주소
+# DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+# HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "prac (+http://www.yourdomain.com)"
